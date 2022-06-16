@@ -100,7 +100,7 @@ local _aimsp_settings; _aimsp_settings = {
     },
     toggle_hud_key = Enum.KeyCode.P, -- toggle drawing
     smoothness = 8, -- anything over 5 = aim assist,  1 = lock on (using 1 might get u banned)
-    fov_size = 50; -- <450 = safezone
+    fov_size = 100; -- <450 = safezone
 
     -- esp settings
     use_esp = false,
