@@ -56,7 +56,7 @@ local _aimsp_settings; _aimsp_settings = {
         use_odds = true, -- if this is false, it will not try to calculate odds thus always hitting headshots
 
         func = function() -- if use_odds is false, this function won't be called
-            local chance = 50 -- chance to aim on the head out of 100
+            local chance = 20 -- chance to aim on the head out of 100
             -- 0 = no head (lol), however if the torso is not visible it will still aim for the head
 
             math_randomseed(tick())
