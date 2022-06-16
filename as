@@ -53,7 +53,7 @@ local _aimsp_settings; _aimsp_settings = {
     }, -- either of these must be true
 
     headshot_odds = {
-        use_odds = false, -- if this is false, it will not try to calculate odds thus always hitting headshots
+        use_odds = true, -- if this is false, it will not try to calculate odds thus always hitting headshots
 
         func = function() -- if use_odds is false, this function won't be called
             local chance = 50 -- chance to aim on the head out of 100
@@ -100,7 +100,7 @@ local _aimsp_settings; _aimsp_settings = {
     },
     toggle_hud_key = Enum.KeyCode.P, -- toggle drawing
     smoothness = 8, -- anything over 5 = aim assist,  1 = lock on (using 1 might get u banned)
-    fov_size = 150; -- <450 = safezone
+    fov_size = 100; -- <450 = safezone
 
     -- esp settings
     use_esp = false,
